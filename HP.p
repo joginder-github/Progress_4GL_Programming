@@ -1,2 +1,1 @@
-MESSAGE "Hello World!"
-    VIEW-AS ALERT-BOX INFO BUTTONS OK.
+DISPLAY "Hello World!".
