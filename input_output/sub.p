@@ -1,0 +1,7 @@
+DEFINE INPUT PARAMETER num AS INTEGER.
+DEFINE OUTPUT PARAMETER nam AS CHARACTER.
+DEFINE OUTPUT PARAMETER cou AS CHARACTER.
+FIND customer WHERE customer.custnum = num NO-LOCK NO-ERROR.
+nam = customer.NAME.
+cou = customer.country.
+RETURN.
